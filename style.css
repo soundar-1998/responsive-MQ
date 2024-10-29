@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+}.head{
+    background-image: url('https://hdqwalls.com/download/1/underwater-scene-2560x1440.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    position:relative;
+    width:100%;
+}.navbar{
+   display:flex;
+   align-items: center;
+   justify-content:end;/*correct code sapce-between but (enaku end kudutha varudhu)*/ 
+   width:85%;
+   /*background-color: rgb(30, 126, 164);*/
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 25px;
+     border-radius: 20px;
+     cursor:pointer;
+     color: yellow;
+    }.content{
+    position:absolute;
+   top:40%;
+   left:30%;
+   transform: translate(-40%-20%);
+}
+
+
+.content h1{
+    color:white;
+    font-size: 50px;
+}
+.sidebar{
+    height:100vh;
+    position: absolute;
+top:0;right:0;
+width :50px;
+background:linear-gradient(rgb(9, 145, 236),rgb(160, 155, 155))
+
+
+}
+.sidebar i{
+    height: 25px;
+width:25px;
+}.sidebar .menu{
+position: absolute;
+top:30px;
+left:15%;
+}.social-link{
+position: absolute;
+top:50%;
+transform:translateY(-50%);
+left:15%;
+
+}.useful-link{
+    position: absolute;
+   bottom: 10px;  
+   left:15%; 
+}
+.bubbles{
+position: absolute;
+bottom:0;
+display:flex;
+justify-content: space-between;
+align-items: center;
+width:100%;
+
+
+}.bubbles img{
+width:70px;
+animation:sample 7s linear infinite;
+}
+
+@keyframes sample{
+    0%{
+        transform:tranlate(0);
+        opacity:0;
+    }
+50%{
+    opcity:1;
+}70%{
+opacity:1;
+}100%{
+    transform: translateY(-70vh);
+    opacity:0;
+}
+
+
+
+}.bubbles img:nth-child(1){
+animation-delay:1s;
+
+}.bubbles img:nth-child(2){
+    animation-delay:1.5s;
+    width:40px;
+}.bubbles img:nth-child(3){
+        animation-delay:2s;
+        width:35px;
+}.bubbles img:nth-child(4){
+        animation-delay:2s;
+        width:40px;
+}.bubbles img:nth-child(5){
+        animation-delay:3.5s;
+
+}.bubbles img:nth-child(6){
+        animation-delay:3.5s;
+        width:40px;
+} .bubbles img:nth-child(7){
+        animation-delay:4s;
+        width:40px;
+}
+   /* we should  make  it as  reponsive*/
+   @media screen  and (max-width:600px){
+    .head{
+        background-image: url('https://tse3.mm.bing.net/th?id=OIP.0NivpCW9K55R-P20WVdxVwHaNK&pid=Api&P=0&h=220');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100vh;
+        position:relative;
+        width:100%;
+    
+   }
+   .content h1{
+    color:rgb(178, 32, 142);
+    font-size: 50px;
+}.tt{
+    padding-right:70px;
+    background-color: cornflowerblue;
+}.sidebar{
+    height: 50px;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    top:auto;
+
+   
+}.menu{
+width:30px;
+position: absolute;
+margin-left: 200px;
+bottom:30px;
+}.social-link{
+   position: absolute;
+   margin-left: 200px; 
+   bottom:12px;
+}.useful-link{
+    position: absolute;
+margin-left: 420px;
+    top:20px;
+   }
+}
+/* tablet media*/
+@media screen and (max-width:900px) and (min-width:600px) {
+    .head{
+        background-image: url('https://eskipaper.com/images/awesome-blue-bubbles-wallpaper-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100vh;
+        position:relative;
+        width:100%;
+    
+   }
+.content h1{
+    color:rgb(219, 215, 19);
+    font-size: 30px;
+}.tt{
+    padding-right:70px;
+    background-color: rgb(239, 138, 178);
+}.sidebar{
+    height: 50px;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    top:auto;
+    background:linear-gradient(rgb(168, 61, 61),rgb(136, 193, 210))
+
+   
+}.menu{
+width:50px;
+position: absolute;
+margin-left: 20px;
+bottom:20px;
+}.social-link{
+   position: absolute;
+   margin-left: 250px; 
+}.useful-link{
+    position: absolute;
+margin-left: 600px;
+    top:14px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
